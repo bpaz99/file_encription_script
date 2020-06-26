@@ -1,5 +1,5 @@
 # All this does is conver a damn string into a key
-import base64, os
+import base64
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC

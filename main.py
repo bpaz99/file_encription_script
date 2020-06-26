@@ -1,6 +1,5 @@
 from cryptography.fernet import Fernet
 from keygen import getKey
-import os
 import tkinter as tk
 from tkinter import filedialog
 
